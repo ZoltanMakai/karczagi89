@@ -17,11 +17,54 @@
             class="h-1 mx-auto bg-gradient w-64 opacity-25 my-0 py-0 rounded-t"
           ></div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-4 mx-auto pt-16">
-          <div class="w-full h-full col-span-2">
+        <div class="grid grid-cols-1 md:grid-cols-10 mx-auto pt-16 gap-6">
+          <div class="w-full h-full col-span-5 relative overflow-hidden">
             <img
               src="@/assets/picture/jcb3cx.jpg"
-              class="w-full h-full object-cover"
+              class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
+              alt="JCB Image"
+            />
+          </div>
+          <div class="w-full h-full col-span-5 relative overflow-hidden">
+            <img
+              src="@/assets/picture/jcb1cx.jpg"
+              class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
+              alt="JCB Image"
+            />
+          </div>
+          <div class="w-full h-full col-span-3 relative overflow-hidden">
+            <img
+              src="@/assets/picture/jcb8018.jpg"
+              class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
+              alt="JCB Image"
+            />
+          </div>
+          <div class="w-full h-full col-span-4 relative overflow-hidden">
+            <img
+              src="@/assets/picture/padkahenger.jpg"
+              class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
+              alt="JCB Image"
+            />
+          </div>
+          <div class="w-full h-full col-span-3 relative overflow-hidden">
+            <img
+              src="@/assets/picture/betonvago.jpg"
+              class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
+              alt="JCB Image"
+            />
+          </div>
+          <div class="w-full h-full col-span-5 relative overflow-hidden">
+            <img
+              src="@/assets/picture/lapvibrator.jpg"
+              class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
+              alt="JCB Image"
+            />
+          </div>
+          <div class="w-full h-full col-span-5 relative overflow-hidden">
+            <img
+              src="@/assets/picture/roxon.jpg"
+              class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
+              alt="JCB Image"
             />
           </div>
         </div>
