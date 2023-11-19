@@ -1,21 +1,21 @@
 <template>
-  <div class="pt-24">
+  <div class="pt-12 pb-12 md:pb-16 md:pt-24">
     <div class="container px-3 mx-auto flex flex-wrap items-center">
       <!--Left Col-->
       <div
-        class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
+        class="pt-4 flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
       >
-        <h1 class="my-4 text-5xl font-bold leading-tight">
+        <h1 class="my-4 text-2xl md:text-5xl font-bold leading-tight">
           Gépi földmunka és Építőanyag kereskedelem
         </h1>
-        <p class="leading-normal text-2xl mb-8 mt-8">
+        <p class="leading-normal text-base md:text-2xl mb-8 mt-8">
           Cégünk közel 30 éve családi vállakozásként és lassan 3 generáción át
           áll kedves ügyfeleink rendelkezésére Bogács és környező településein,
           gépi földmunkák és egyéb kültéri munkák kivitelezésében.
         </p>
         <a
           href="tel:+36203962613"
-          class="z-10 items-center mx-auto lg:mx-0 hover:underline bg-white text-gray-800 rounded-full my-6 py-4 px-8 shadow-lg transition hover:scale-105 duration-300 ease-in-out"
+          class="z-10 items-center mx-auto lg:mx-0 hover:underline bg-white text-gray-800 rounded-full my-3 py-2 px-4 md:my-6 md:py-4 md:px-8 shadow-lg transition hover:scale-105 duration-300 ease-in-out"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@
         <img
           :class="
             animated
-              ? 'animate-float-in w-full md:w-4/5 z-50 '
+              ? 'animate-float-in w-full md:w-4/5 z-50'
               : 'w-full md:w-4/5 z-50'
           "
           src="@/assets/picture/caterpillar-inc-komatsu-limited-jcb-excavator-backhoe-loader-excavator-bfdc5150dc3d045ceff940f55d79edb1.png"

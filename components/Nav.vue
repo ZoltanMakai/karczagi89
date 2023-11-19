@@ -10,7 +10,7 @@
         >
           <svg
             fill="#000000"
-            class="h-8 fill-current inline"
+            class="h-6 fill-current inline"
             version="1.1"
             id="Icons"
             xmlns="http://www.w3.org/2000/svg"
@@ -65,11 +65,12 @@
         id="nav-content"
         :class="navcontent"
       >
-        <ul class="lg:flex justify-end flex-1 items-center gap-8">
+        <ul class="lg:flex justify-end flex-1 items-center gap-4">
           <li class="mr-3">
             <a
               class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold toggleColour text-white no-underline hover:underline py-2 px-4"
               href="#gepi-foldmunkak"
+              @click.prevent="smoothScroll('gepi-foldmunkak')"
               >Gépi földmunkák</a
             >
           </li>
