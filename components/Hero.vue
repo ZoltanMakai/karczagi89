@@ -15,7 +15,7 @@
         </p>
         <a
           href="tel:+36203962613"
-          class="z-10 items-center mx-auto lg:mx-0 hover:underline bg-white text-gray-800 rounded-full my-3 py-2 px-4 md:my-6 md:py-4 md:px-8 shadow-lg transition hover:scale-105 duration-300 ease-in-out"
+          class="z-10 items-center mx-auto lg:mx-0 hover:underline bg-white text-black rounded-full my-3 py-2 px-4 md:my-6 md:py-4 md:px-8 shadow-lg transition hover:scale-105 duration-300 ease-in-out"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

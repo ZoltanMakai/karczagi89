@@ -4,13 +4,13 @@
       <div class="w-full flex flex-col md:flex-row py-6">
         <div class="flex-1 mb-6 text-black">
           <a
-            class="no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+            class="no-underline hover:no-underline font-bold text-xl lg:text-2xl"
             href="#"
           >
             <!--Icon from: http://www.potlabicons.com/ -->
             <svg
               fill="#000000"
-              class="h-8 fill-current inline"
+              class="h-6 fill-current inline"
               version="1.1"
               id="Icons1"
               xmlns="http://www.w3.org/2000/svg"
