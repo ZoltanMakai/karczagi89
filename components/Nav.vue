@@ -1,11 +1,11 @@
 <template>
   <nav id="header" :class="header" class="fixed w-full z-30 top-0 text-white">
     <div
-      class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
+      class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-1"
     >
       <div class="pl-4 flex items-center">
         <a
-          class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+          class="toggleColour text-white no-underline hover:no-underline font-bold text-xl lg:text-2xl"
           href="#"
         >
           <svg

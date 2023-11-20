@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-12 pb-12 md:pb-16 md:pt-24">
+  <div class="pt-12 pb-6 md:pb-10 md:pt-24">
     <div class="container px-3 mx-auto flex flex-wrap items-center">
       <!--Left Col-->
       <div
@@ -8,7 +8,7 @@
         <h1 class="my-4 text-2xl md:text-5xl font-bold leading-tight">
           Gépi földmunka és Építőanyag kereskedelem
         </h1>
-        <p class="leading-normal text-base md:text-2xl mb-8 mt-8">
+        <p class="leading-normal text-base md:text-2xl mb-2 md:mb-8 mt-8">
           Cégünk közel 30 éve családi vállakozásként és lassan 3 generáción át
           áll kedves ügyfeleink rendelkezésére Bogács és környező településein,
           gépi földmunkák és egyéb kültéri munkák kivitelezésében.
@@ -34,7 +34,10 @@
         </a>
       </div>
       <!--Right Col-->
-      <div class="w-full md:w-3/5 py-2 text-center relative" ref="container">
+      <div
+        class="w-full hidden md:block md:w-3/5 py-2 text-center relative"
+        ref="container"
+      >
         <img
           :class="
             animated

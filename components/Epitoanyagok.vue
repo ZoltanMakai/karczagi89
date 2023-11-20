@@ -15,234 +15,50 @@
         ></div>
       </div>
       <div class="grid grid-cols-2 md:grid-cols-3 mx-auto gap-6 md:gap-12 pt-8">
-        <div class="w-full bg-transparent cursor-pointer group perspective">
+        <div
+          v-for="(card, index) in cards"
+          :key="index"
+          class="w-full bg-transparent cursor-pointer group perspective"
+          @click="rotateImage(index)"
+        >
           <p
             class="text-gray-800 text-lg md:text-3xl text-center font-semibold py-3 md:py-4"
           >
-            Sóder
+            {{ card.title }}
           </p>
           <div
-            class="relative preserve-3d group-hover:my-rotate-y-180 w-full h-[240px] md:h-[420px] duration-1000"
+            :class="{
+              'my-rotate-y-180': isRotated[index],
+            }"
+            class="relative preserve-3d w-full h-[240px] md:h-[420px] duration-1000"
           >
             <div class="absolute w-full h-full">
               <img
-                src="@/assets/picture/soder.jpg"
-                class="w-full h-full object-cover rounded-xl shadow-xl"
+                :src="card.image"
+                class="w-full h-full object-cover rounded-xl shadow-2xl shadow-gray-900"
               />
             </div>
             <div
+              v-if="card.details && card.details.length > 0"
               class="absolute my-rotate-y-180 backface-hidden w-full h-full shadow-xl rounded-xl bg-gray-100 overflow-hidden"
             >
               <div
                 class="text-center flex flex-col items-center justify-center text-black h-full px-2"
               >
                 <ul>
-                  <li class="py-2 text-base font-semibold md:text-xl">
-                    - 0-4 mm-es sóder
-                  </li>
-                  <li class="py-2 text-base font-semibold md:text-xl">
-                    - 0-16 mm-es sóder
-                  </li>
-                  <li class="py-2 text-base font-semibold md:text-xl">
-                    - 0-22 mm-es sóder
+                  <li
+                    class="py-2 text-base font-semibold md:text-xl"
+                    v-for="(detail, idx) in card.details"
+                    :key="idx"
+                  >
+                    {{ detail }}
                   </li>
                 </ul>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="w-full bg-transparent cursor-pointer group perspective">
-          <p
-            class="text-gray-800 text-lg md:text-3xl text-center font-semibold py-3 md:py-4"
-          >
-            Homok
-          </p>
-          <div
-            class="relative preserve-3d group-hover:my-rotate-y-180 w-full h-[240px] md:h-[420px] duration-1000"
-          >
-            <div class="absolute w-full h-full">
-              <img
-                src="@/assets/picture/homok.jpg"
-                class="w-full h-full object-cover rounded-xl shadow-xl"
-              />
-            </div>
             <div
-              class="absolute my-rotate-y-180 backface-hidden w-full h-full rounded-xl shadow-xl bg-gray-100 overflow-hidden"
-            >
-              <div
-                class="text-center flex flex-col items-center justify-center text-black h-full px-2"
-              >
-                <ul>
-                  <li class="py-2 text-base font-semibold md:text-xl">
-                    - Éles
-                  </li>
-                  <li class="py-2 text-base font-semibold md:text-xl">
-                    - Finom
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="w-full bg-transparent cursor-pointer group perspective">
-          <p
-            class="text-gray-800 text-lg md:text-3xl text-center font-semibold py-3 md:py-4"
-          >
-            Gyöngykavics
-          </p>
-          <div
-            class="relative preserve-3d group-hover:my-rotate-y-180 w-full h-[240px] md:h-[420px] duration-1000"
-          >
-            <div class="absolute w-full h-full">
-              <img
-                src="@/assets/picture/gyongykavics.jpg"
-                class="w-full h-full object-cover rounded-xl shadow-xl"
-              />
-            </div>
-            <div
-              class="absolute my-rotate-y-180 w-full h-full rounded-xl shadow-xl overflow-hidden"
-            ></div>
-          </div>
-        </div>
-        <div class="w-full bg-transparent cursor-pointer group perspective">
-          <p
-            class="text-gray-800 text-lg md:text-3xl text-center font-semibold py-3 md:py-4"
-          >
-            Kulé kavics
-          </p>
-          <div
-            class="relative preserve-3d group-hover:my-rotate-y-180 w-full h-[240px] md:h-[420px] duration-1000"
-          >
-            <div class="absolute w-full h-full">
-              <img
-                src="@/assets/picture/kulekavics.jpg"
-                class="w-full h-full object-cover shadow-xl rounded-xl"
-              />
-            </div>
-            <div
+              v-else-if="card.details !== undefined"
               class="absolute my-rotate-y-180 n w-full h-full shadow-xl rounded-xl overflow-hidden"
-            ></div>
-          </div>
-        </div>
-        <div class="w-full bg-transparent cursor-pointer group perspective">
-          <p
-            class="text-gray-800 text-lg md:text-3xl text-center font-semibold py-3 md:py-4"
-          >
-            Zúzott kő
-          </p>
-          <div
-            class="relative preserve-3d group-hover:my-rotate-y-180 w-full h-[240px] md:h-[420px] duration-1000"
-          >
-            <div class="absolute w-full h-full">
-              <img
-                src="@/assets/picture/zuzottko.jpg"
-                class="w-full h-full object-cover shadow-xl rounded-xl"
-              />
-            </div>
-            <div
-              class="absolute my-rotate-y-180 w-full h-full shadow-xl rounded-xl overflow-hidden"
-            ></div>
-          </div>
-        </div>
-        <div class="w-full bg-transparent cursor-pointer group perspective">
-          <p
-            class="text-gray-800 text-lg md:text-3xl text-center font-semibold py-3 md:py-4"
-          >
-            Betontermékek
-          </p>
-          <div
-            class="relative preserve-3d group-hover:my-rotate-y-180 w-full h-[240px] md:h-[420px] duration-1000"
-          >
-            <div class="absolute w-full h-full">
-              <img
-                src="@/assets/picture/betontermek.jpg"
-                class="w-full h-full object-cover shadow-xl rounded-xl"
-              />
-            </div>
-            <div
-              class="absolute my-rotate-y-180 backface-hidden w-full h-full shadow-xl rounded-xl bg-gray-100 overflow-hidden"
-            >
-              <div
-                class="text-center flex flex-col items-center justify-center text-black h-full px-2"
-              >
-                <ul>
-                  <li class="py-2 text-base font-semibold md:text-xl">
-                    - Zsalukövek
-                  </li>
-                  <li class="py-2 text-base font-semibold md:text-xl">
-                    - Oszlopkövek
-                  </li>
-                  <li class="py-2 text-base font-semibold md:text-xl">
-                    - Szegélykövek
-                  </li>
-                  <li class="py-2 text-base font-semibold md:text-xl">
-                    - Járdalapok
-                  </li>
-                  <li class="py-2 text-base font-semibold md:text-xl">
-                    - Átereszek
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="w-full bg-transparent cursor-pointer group perspective">
-          <p
-            class="text-gray-800 text-lg md:text-3xl text-center font-semibold py-3 md:py-4"
-          >
-            Zsákos cement
-          </p>
-          <div
-            class="relative preserve-3d group-hover:my-rotate-y-180 w-full h-[240px] md:h-[420px] duration-1000"
-          >
-            <div class="absolute w-full h-full">
-              <img
-                src="@/assets/picture/cement.jpg"
-                class="w-full h-full object-cover shadow-xl rounded-xl"
-              />
-            </div>
-            <div
-              class="absolute my-rotate-y-180 w-full h-fullshadow-xl rounded-xl overflow-hidden"
-            ></div>
-          </div>
-        </div>
-        <div class="w-full bg-transparent cursor-pointer group perspective">
-          <p
-            class="text-gray-800 text-lg md:text-3xl text-center font-semibold py-3 md:py-4"
-          >
-            Zsákos oltott mész
-          </p>
-          <div
-            class="relative preserve-3d group-hover:my-rotate-y-180 w-full h-[240px] md:h-[420px] duration-1000"
-          >
-            <div class="absolute w-full h-full">
-              <img
-                src="@/assets/picture/oltottmesz.jpg"
-                class="w-full h-full object-cover shadow-xl rounded-xl"
-              />
-            </div>
-            <div
-              class="absolute my-rotate-y-180 w-full h-full shadow-xl rounded-xl overflow-hidden"
-            ></div>
-          </div>
-        </div>
-        <div class="w-full bg-transparent cursor-pointer group perspective">
-          <p
-            class="text-gray-800 text-lg md:text-3xl text-center font-semibold py-3 md:py-4"
-          >
-            Betonacél
-          </p>
-          <div
-            class="relative preserve-3d group-hover:my-rotate-y-180 w-full h-[240px] md:h-[420px] duration-1000"
-          >
-            <div class="absolute w-full h-full">
-              <img
-                src="@/assets/picture/betonacel.jpg"
-                class="w-full h-full object-cover shadow-xl rounded-xl"
-              />
-            </div>
-            <div
-              class="absolute my-rotate-y-180 w-full h-full shadow-xl rounded-xl overflow-hidden"
             ></div>
           </div>
         </div>
@@ -250,3 +66,70 @@
     </div>
   </section>
 </template>
+
+<script setup>
+const cards = [
+  {
+    title: "Sóder",
+    image: "/_nuxt/assets/picture/soder.jpg",
+    details: ["- 0-4 mm-es sóder", "- 0-16 mm-es sóder", "- 0-22 mm-es sóder"],
+    isRotated: ref(false),
+  },
+  {
+    title: "Homok",
+    image: "/_nuxt/assets/picture/homok.jpg",
+    details: ["- Éles", "- Finom"],
+    isRotated: ref(false),
+  },
+  {
+    title: "Gyöngykavics",
+    image: "/_nuxt/assets/picture/gyongykavics.jpg",
+    isRotated: ref(false),
+  },
+  {
+    title: "Kulé kavics",
+    image: "/_nuxt/assets/picture/kulekavics.jpg",
+    isRotated: ref(false),
+  },
+  {
+    title: "Zúzott kő",
+    image: "/_nuxt/assets/picture/zuzottko.jpg",
+    isRotated: ref(false),
+  },
+  {
+    title: "Betontermékek",
+    image: "/_nuxt/assets/picture/betontermek.jpg",
+    details: [
+      "- Zsalukövek",
+      "- Oszlopkövek",
+      "- Szegélykövek",
+      "- Járdalapok",
+      "- Átereszek",
+    ],
+    isRotated: ref(false),
+  },
+  {
+    title: "Zsákos cement",
+    image: "/_nuxt/assets/picture/cement.jpg",
+    isRotated: ref(false),
+  },
+  {
+    title: "Zsákos oltott mész",
+    image: "/_nuxt/assets/picture/oltottmesz.jpg",
+    isRotated: ref(false),
+  },
+  {
+    title: "Betonacél",
+    image: "/_nuxt/assets/picture/betonacel.jpg",
+    isRotated: ref(false),
+  },
+];
+
+const isRotated = ref(Array(cards.length).fill(false));
+
+const rotateImage = (index) => {
+  isRotated.value = isRotated.value.map((value, idx) =>
+    idx === index ? !value : false
+  );
+};
+</script>
