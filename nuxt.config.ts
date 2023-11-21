@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     },
   },
   modules: [
+    "@nuxt/image", 
     "nuxt-simple-sitemap",
   ],
   site: {
