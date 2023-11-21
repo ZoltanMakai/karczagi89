@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   },
   generate: {
     routeRules: {
-      '/**': { prerender: true },
+      "/**": { prerender: true },
+    },
   },
 });
