@@ -71,7 +71,7 @@
 const cards = [
   {
     title: "Sóder",
-    image: "~/assets/picture/soder.jpg",
+    image: "/img/soder.jpg",
     details: ["- 0-4 mm-es sóder", "- 0-16 mm-es sóder", "- 0-22 mm-es sóder"],
     isRotated: ref(false),
   },
@@ -83,22 +83,22 @@ const cards = [
   },
   {
     title: "Gyöngykavics",
-    image: "/_nuxt/assets/picture/gyongykavics.jpg",
+    image: "/img/gyongykavics.jpg",
     isRotated: ref(false),
   },
   {
     title: "Kulé kavics",
-    image: "/_nuxt/assets/picture/kulekavics.jpg",
+    image: "/img/kulekavics.jpg",
     isRotated: ref(false),
   },
   {
     title: "Zúzott kő",
-    image: "/_nuxt/assets/picture/zuzottko.jpg",
+    image: "/img/zuzottko.jpg",
     isRotated: ref(false),
   },
   {
     title: "Betontermékek",
-    image: "/_nuxt/assets/picture/betontermek.jpg",
+    image: "/img/betontermek.jpg",
     details: [
       "- Zsalukövek",
       "- Oszlopkövek",
@@ -110,17 +110,17 @@ const cards = [
   },
   {
     title: "Zsákos cement",
-    image: "/_nuxt/assets/picture/cement.jpg",
+    image: "/img/cement.jpg",
     isRotated: ref(false),
   },
   {
     title: "Zsákos oltott mész",
-    image: "/_nuxt/assets/picture/oltottmesz.jpg",
+    image: "/img/oltottmesz.jpg",
     isRotated: ref(false),
   },
   {
     title: "Betonacél",
-    image: "/_nuxt/assets/picture/betonacel.jpg",
+    image: "/img/betonacel.jpg",
     isRotated: ref(false),
   },
 ];
