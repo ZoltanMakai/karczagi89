@@ -38,13 +38,13 @@
         class="w-full hidden md:block md:w-3/5 py-2 text-center relative"
         ref="container"
       >
-        <NuxtImg
+        <img
           :class="
             animated
-              ? 'animate-float-in md:h-4/5 md:w-4/5 z-50'
+              ? 'animate-float-in  md:w-4/5 z-50'
               : 'md:h-4/5 md:w-4/5 z-50'
           "
-          src="/img/caterpillar-inc-komatsu-limited-jcb-excavator-backhoe-loader-excavator-bfdc5150dc3d045ceff940f55d79edb1.png"
+          src="@/assets/picture/caterpillar-inc-komatsu-limited-jcb-excavator-backhoe-loader-excavator-bfdc5150dc3d045ceff940f55d79edb1.png"
         />
       </div>
     </div>
