@@ -11,7 +11,10 @@ export default defineNuxtConfig({
       "/**": { prerender: true },
     },
   },
-  modules: ["nuxt-simple-sitemap"],
+  modules: [
+    "@nuxt/image", 
+    "nuxt-simple-sitemap",
+  ],
   site: {
     url: "https://karczagi-89kft.hu",
   },
