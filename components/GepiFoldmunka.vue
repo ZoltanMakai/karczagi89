@@ -100,7 +100,7 @@
           <p
             class="md:mt-4 mt-2 md:w-80 w-72 tracking-tighter md:text-lg text-center"
           >
-            Az általáunk földmunkagéppel ásott munkagödör kiásása fogja nyújtani
+            Az általunk földmunkagéppel ásott munkagödör kiásása fogja nyújtani
             épületének alapját
           </p>
         </div>

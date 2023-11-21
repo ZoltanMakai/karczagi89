@@ -12,4 +12,12 @@ export default defineNuxtConfig({
     },
   },
   modules: ["nuxt-simple-sitemap"],
+  site: {
+    url: "https://example.com",
+  },
+  sitemap: {
+    urls: async () => {
+      return ["/"];
+    },
+  },
 });
