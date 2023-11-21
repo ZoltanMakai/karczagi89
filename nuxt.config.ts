@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   },
   modules: ["nuxt-simple-sitemap"],
   site: {
-    url: "https://example.com",
+    url: "https://karczagi-89kft.hu",
   },
   sitemap: {
     urls: async () => {
