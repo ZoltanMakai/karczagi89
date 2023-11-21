@@ -9,6 +9,5 @@ export default defineNuxtConfig({
   generate: {
     routeRules: {
       '/**': { prerender: true },
-    },
   },
 });
