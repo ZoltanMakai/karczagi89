@@ -71,13 +71,13 @@
 const cards = [
   {
     title: "Sóder",
-    image: "@/assets/picture/soder.jpg",
+    image: "~/assets/picture/soder.jpg",
     details: ["- 0-4 mm-es sóder", "- 0-16 mm-es sóder", "- 0-22 mm-es sóder"],
     isRotated: ref(false),
   },
   {
     title: "Homok",
-    image: "/_nuxt/assets/picture/homok.jpg",
+    image: "~/assets/picture/homok.jpg",
     details: ["- Éles", "- Finom"],
     isRotated: ref(false),
   },
