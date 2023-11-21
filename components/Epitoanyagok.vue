@@ -77,7 +77,7 @@ const cards = [
   },
   {
     title: "Homok",
-    image: "/_nuxt/assets/picture/homok.jpg",
+    image: "/img/homok.jpg",
     details: ["- Éles", "- Finom"],
     isRotated: ref(false),
   },
