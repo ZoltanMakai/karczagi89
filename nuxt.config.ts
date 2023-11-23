@@ -20,7 +20,4 @@ export default defineNuxtConfig({
       return ["/"];
     },
   },
-  experimental: {
-    appManifest: false,
-  },
 });

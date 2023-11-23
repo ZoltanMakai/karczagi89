@@ -72,7 +72,7 @@
         </div>
         <div class="flex flex-col items-center">
           <img
-            src="/img/foldtukor_kiemeles_icon.png"
+            src="/img/fold.png"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
@@ -140,7 +140,7 @@
         </div>
         <div class="flex flex-col items-center md:col-start-2 md:pr-10">
           <img
-            src="/img/pincetomb_kiemeles_icon.png"
+            src="/img/pince.png"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
