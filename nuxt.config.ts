@@ -6,11 +6,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  generate: {
-    routeRules: {
-      "/**": { prerender: true },
-    },
+  routeRules: {
+    "/**": { prerender: true },
   },
+
   modules: ["@nuxt/image", "nuxt-simple-sitemap"],
   site: {
     url: "https://karczagi-89kft.hu",
