@@ -39,13 +39,12 @@
         ref="container"
       >
         <NuxtImg
-          format="webp"
           :class="
             animated
               ? 'animate-float-in  md:w-4/5 z-50'
               : 'md:h-4/5 md:w-4/5 z-50'
           "
-          src="/img/cat.png"
+          src="/img/cat.webp"
         />
       </div>
     </div>

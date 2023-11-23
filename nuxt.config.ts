@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   image: {
     presets: {
       webp: {
-        quality: 75,
+        quality: 100,
       },
     },
   },
