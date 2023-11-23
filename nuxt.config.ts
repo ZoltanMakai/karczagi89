@@ -19,9 +19,4 @@ export default defineNuxtConfig({
       return ["/"];
     },
   },
-  head: {
-    htmlAttrs: {
-      lang: "hu",
-    },
-  },
 });
