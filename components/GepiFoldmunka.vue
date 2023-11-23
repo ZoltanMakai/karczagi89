@@ -40,7 +40,7 @@
           <NuxtImg
             src="/img/tereprendezes_icon.webp"
             format="webp"
-            class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
+            class="md:w-40 md:h-40 w-20 h-20 transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
           />
@@ -59,7 +59,7 @@
           <NuxtImg
             src="/img/epuletbontas_icon.webp"
             format="webp"
-            class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
+            class="md:w-40 md:h-40 w-20 h-20 transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
           />
@@ -76,7 +76,7 @@
           <NuxtImg
             src="/img/fold.webp"
             format="webp"
-            class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
+            class="md:w-40 md:h-40 w-20 h-20 transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
           />
@@ -94,7 +94,7 @@
           <NuxtImg
             src="/img/alapasas_icon.webp"
             format="webp"
-            class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
+            class="md:w-40 md:h-40 w-20 h-20 transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
           />
@@ -130,7 +130,7 @@
           <NuxtImg
             src="/img/arokasas_icon.webp"
             format="webp"
-            class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
+            class="md:w-40 md:h-40 w-20 h-20 transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
           />
@@ -148,7 +148,7 @@
           <NuxtImg
             src="/img/pince.webp"
             format="webp"
-            class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
+            class="md:w-40 md:h-40 w-20 h-20 transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
           />
