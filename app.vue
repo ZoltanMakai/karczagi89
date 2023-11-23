@@ -1,6 +1,5 @@
 <template>
   <div
-    lang="hu"
     class="leading-normal tracking-normal text-white font-roboto bg-gradient"
   >
     <Nav />
