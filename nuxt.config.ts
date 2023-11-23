@@ -32,8 +32,5 @@ export default defineNuxtConfig({
       xxl: 1536,
       "2xl": 1536,
     },
-    cloudflare: {
-      baseURL: "https://karczagi-89kft.hu",
-    },
   },
 });
