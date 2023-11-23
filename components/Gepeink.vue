@@ -37,8 +37,6 @@
       <div class="grid grid-cols-2 md:grid-cols-10 mx-auto pt-6 gap-3 md:gap-6">
         <div class="w-full h-full md:col-span-5 relative overflow-hidden">
           <NuxtImg
-            height="366"
-            width="488"
             src="/img/jcb3cx.webp"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
@@ -47,8 +45,6 @@
         <div class="w-full h-full md:col-span-5 relative overflow-hidden">
           <NuxtImg
             src="/img/jcb1cx.webp"
-            height="366"
-            width="488"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
           />

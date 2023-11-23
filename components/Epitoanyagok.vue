@@ -33,9 +33,6 @@
           >
             <div class="absolute w-full h-full" @click="rotateImage(index)">
               <NuxtImg
-                height="420"
-                width="270"
-                sm:height="200"
                 :src="card.image"
                 class="w-full h-full object-cover rounded-xl shadow-2xl shadow-gray-900"
                 alt="Icon"
