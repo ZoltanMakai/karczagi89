@@ -37,7 +37,7 @@
         class="grid grid-cols-1 md:grid-cols-3 mx-auto pt-8 gap-3 text-black"
       >
         <div class="flex flex-col items-center md:pr-10">
-          <img
+          <NuxtImg
             src="/img/tereprendezes_icon.png"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
@@ -55,7 +55,7 @@
         </div>
 
         <div class="flex flex-col items-center md:pr-10">
-          <img
+          <NuxtImg
             src="/img/epuletbontas_icon.png"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
@@ -71,7 +71,7 @@
           </p>
         </div>
         <div class="flex flex-col items-center">
-          <img
+          <NuxtImg
             src="/img/fold.png"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
@@ -88,7 +88,7 @@
           </p>
         </div>
         <div class="flex flex-col items-center md:pt-8 md:pr-10">
-          <img
+          <NuxtImg
             src="/img/alapasas_icon.png"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
@@ -105,7 +105,7 @@
           </p>
         </div>
         <div class="flex flex-col items-center md:pt-8 md:pr-10">
-          <img
+          <NuxtImg
             src="/img/concretesaw.png"
             class="md:w-40 md:h-40 w-44 h-44 transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
@@ -122,7 +122,7 @@
           </p>
         </div>
         <div class="flex flex-col items-center md:pt-8">
-          <img
+          <NuxtImg
             src="/img/arokasas_icon.png"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
@@ -139,7 +139,7 @@
           </p>
         </div>
         <div class="flex flex-col items-center md:col-start-2 md:pr-10">
-          <img
+          <NuxtImg
             src="/img/pince.png"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
