@@ -112,7 +112,7 @@
           <NuxtImg
             src="/img/concretesaw.webp"
             format="webp"
-            class="md:w-40 md:h-40 w-44 h-44 transform transition duration-300 hover:rotate-3 hover:scale-105"
+            class="md:w-40 md:h-40 w-20 h-20 transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
           />

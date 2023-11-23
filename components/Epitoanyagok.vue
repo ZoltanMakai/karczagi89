@@ -19,7 +19,6 @@
           v-for="(card, index) in cards"
           :key="index"
           class="w-full bg-transparent cursor-pointer group perspective"
-          @click="rotateImage(index)"
         >
           <p
             class="text-gray-800 text-lg md:text-3xl text-center font-semibold py-3 md:py-4"
@@ -32,7 +31,7 @@
             }"
             class="relative preserve-3d w-full h-[240px] md:h-[420px] duration-1000"
           >
-            <div class="absolute w-full h-full">
+            <div class="absolute w-full h-full" @click="rotateImage(index)">
               <NuxtImg
                 format="webp"
                 :src="card.image"
