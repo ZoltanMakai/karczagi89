@@ -38,7 +38,7 @@
       >
         <div class="flex flex-col items-center md:pr-10">
           <img
-            src="@/assets/picture/tereprendezes_icon.png"
+            src="/img/tereprendezes_icon.png"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
@@ -56,7 +56,7 @@
 
         <div class="flex flex-col items-center md:pr-10">
           <img
-            src="@/assets/picture/epuletbontas_icon.png"
+            src="/img/epuletbontas_icon.png"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
@@ -72,7 +72,7 @@
         </div>
         <div class="flex flex-col items-center">
           <img
-            src="@/assets/picture/foldtukor_kiemeles_icon.png"
+            src="/img/foldtukor_kiemeles_icon.png"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
@@ -89,7 +89,7 @@
         </div>
         <div class="flex flex-col items-center md:pt-8 md:pr-10">
           <img
-            src="@/assets/picture/alapasas_icon.png"
+            src="/img/alapasas_icon.png"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
@@ -106,7 +106,7 @@
         </div>
         <div class="flex flex-col items-center md:pt-8 md:pr-10">
           <img
-            src="@/assets/picture/concretesaw.png"
+            src="/img/concretesaw.png"
             class="md:w-40 md:h-40 w-44 h-44 transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
@@ -123,7 +123,7 @@
         </div>
         <div class="flex flex-col items-center md:pt-8">
           <img
-            src="@/assets/picture/arokasas_icon.png"
+            src="/img/arokasas_icon.png"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
@@ -140,7 +140,7 @@
         </div>
         <div class="flex flex-col items-center md:col-start-2 md:pr-10">
           <img
-            src="@/assets/picture/pincetomb_kiemeles_icon.png"
+            src="/img/pincetomb_kiemeles_icon.png"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"

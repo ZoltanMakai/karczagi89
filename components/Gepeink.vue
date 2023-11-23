@@ -37,49 +37,49 @@
       <div class="grid grid-cols-2 md:grid-cols-10 mx-auto pt-6 gap-3 md:gap-6">
         <div class="w-full h-full md:col-span-5 relative overflow-hidden">
           <img
-            src="@/assets/picture/jcb3cx.jpg"
+            src="/img/jcb3cx.jpg"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
           />
         </div>
         <div class="w-full h-full md:col-span-5 relative overflow-hidden">
           <img
-            src="@/assets/picture/jcb1cx.jpg"
+            src="/img/jcb1cx.jpg"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
           />
         </div>
         <div class="w-full h-full md:col-span-3 relative overflow-hidden">
           <img
-            src="@/assets/picture/jcb8018.jpg"
+            src="/img/jcb8018.jpg"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
           />
         </div>
         <div class="w-full h-full md:col-span-4 relative overflow-hidden">
           <img
-            src="@/assets/picture/padkahenger.jpg"
+            src="/img/padkahenger.jpg"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
           />
         </div>
         <div class="w-full h-full md:col-span-3 relative overflow-hidden">
           <img
-            src="@/assets/picture/betonvago.jpg"
+            src="/img/betonvago.jpg"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
           />
         </div>
         <div class="w-full h-full md:col-span-5 relative overflow-hidden">
           <img
-            src="@/assets/picture/lapvibrator.jpg"
+            src="/img/lapvibrator.jpg"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
           />
         </div>
         <div class="w-full h-full md:col-span-5 relative overflow-hidden">
           <img
-            src="@/assets/picture/roxon.jpg"
+            src="/img/roxon.jpg"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
           />
