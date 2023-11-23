@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   routeRules: {
     "/**": { prerender: true },
   },
-  modules: ["@nuxt/image", "nuxt-simple-sitemap", "nuxt-delay-hydration"],
+  modules: ["@nuxt/image", "nuxt-simple-sitemap"],
   site: {
     url: "https://karczagi-89kft.hu",
   },
@@ -17,9 +17,5 @@ export default defineNuxtConfig({
     urls: async () => {
       return ["/"];
     },
-  },
-  delayHydration: {
-    debug: process.env.NODE_ENV === "development",
-    mode: "init",
   },
 });
