@@ -34,6 +34,7 @@
           >
             <div class="absolute w-full h-full">
               <NuxtImg
+                format="webp"
                 :src="card.image"
                 class="w-full h-full object-cover rounded-xl shadow-2xl shadow-gray-900"
               />
