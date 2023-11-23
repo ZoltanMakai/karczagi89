@@ -39,6 +39,7 @@
         <div class="flex flex-col items-center md:pr-10">
           <NuxtImg
             src="/img/tereprendezes_icon.png"
+            format="webp"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
@@ -57,6 +58,7 @@
         <div class="flex flex-col items-center md:pr-10">
           <NuxtImg
             src="/img/epuletbontas_icon.png"
+            format="webp"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
@@ -73,6 +75,7 @@
         <div class="flex flex-col items-center">
           <NuxtImg
             src="/img/fold.png"
+            format="webp"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
@@ -90,6 +93,7 @@
         <div class="flex flex-col items-center md:pt-8 md:pr-10">
           <NuxtImg
             src="/img/alapasas_icon.png"
+            format="webp"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
@@ -107,6 +111,7 @@
         <div class="flex flex-col items-center md:pt-8 md:pr-10">
           <NuxtImg
             src="/img/concretesaw.png"
+            format="webp"
             class="md:w-40 md:h-40 w-44 h-44 transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
@@ -124,6 +129,7 @@
         <div class="flex flex-col items-center md:pt-8">
           <NuxtImg
             src="/img/arokasas_icon.png"
+            format="webp"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"
@@ -141,6 +147,7 @@
         <div class="flex flex-col items-center md:col-start-2 md:pr-10">
           <NuxtImg
             src="/img/pince.png"
+            format="webp"
             class="md:w-40 md:h-40 w-auto h-auto transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
             style="transform-origin: center"

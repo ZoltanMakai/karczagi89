@@ -38,6 +38,7 @@
         <div class="w-full h-full md:col-span-5 relative overflow-hidden">
           <NuxtImg
             src="/img/jcb3cx.jpg"
+            format="webp"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
           />
@@ -45,6 +46,7 @@
         <div class="w-full h-full md:col-span-5 relative overflow-hidden">
           <NuxtImg
             src="/img/jcb1cx.jpg"
+            format="webp"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
           />
@@ -52,6 +54,7 @@
         <div class="w-full h-full md:col-span-3 relative overflow-hidden">
           <NuxtImg
             src="/img/jcb8018.jpg"
+            format="webp"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
           />
@@ -59,6 +62,7 @@
         <div class="w-full h-full md:col-span-4 relative overflow-hidden">
           <NuxtImg
             src="/img/padkahenger.jpg"
+            format="webp"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
           />
@@ -66,6 +70,7 @@
         <div class="w-full h-full md:col-span-3 relative overflow-hidden">
           <NuxtImg
             src="/img/betonvago.jpg"
+            format="webp"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
           />
@@ -73,6 +78,7 @@
         <div class="w-full h-full md:col-span-5 relative overflow-hidden">
           <NuxtImg
             src="/img/lapvibrator.jpg"
+            format="webp"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
           />
@@ -80,6 +86,7 @@
         <div class="w-full h-full md:col-span-5 relative overflow-hidden">
           <NuxtImg
             src="/img/roxon.jpg"
+            format="webp"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
           />

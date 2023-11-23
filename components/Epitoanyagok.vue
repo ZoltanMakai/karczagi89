@@ -37,6 +37,7 @@
                 format="webp"
                 :src="card.image"
                 class="w-full h-full object-cover rounded-xl shadow-2xl shadow-gray-900"
+                alt="Icon"
               />
             </div>
             <div
