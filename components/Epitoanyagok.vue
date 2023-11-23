@@ -32,7 +32,8 @@
             class="relative preserve-3d w-full h-[240px] md:h-[420px] duration-1000"
           >
             <div class="absolute w-full h-full" @click="rotateImage(index)">
-              <img
+              <NuxtImg
+                height="420"
                 :src="card.image"
                 class="w-full h-full object-cover rounded-xl shadow-2xl shadow-gray-900"
                 alt="Icon"
