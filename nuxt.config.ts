@@ -20,11 +20,4 @@ export default defineNuxtConfig({
       return ["/"];
     },
   },
-  image: {
-    presets: {
-      webp: {
-        quality: 100,
-      },
-    },
-  },
 });
