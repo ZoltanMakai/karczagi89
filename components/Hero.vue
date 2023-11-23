@@ -38,7 +38,7 @@
         class="w-full hidden md:block md:w-3/5 py-2 text-center relative"
         ref="container"
       >
-        <img
+        <NuxtImg
           :class="
             animated
               ? 'animate-float-in  md:w-4/5 z-50'
