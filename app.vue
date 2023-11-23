@@ -1,5 +1,6 @@
 <template>
   <div
+    lang="hu"
     class="leading-normal tracking-normal text-white font-roboto bg-gradient"
   >
     <Nav />
@@ -69,6 +70,12 @@
   </div>
 </template>
 <script setup>
+const pageTitle = "Karczagi-89 kft";
+
+onMounted(() => {
+  document.title = pageTitle;
+});
+
 const animated = ref(false);
 
 onMounted(() => {
