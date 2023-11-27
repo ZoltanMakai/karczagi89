@@ -1,6 +1,6 @@
 <template>
   <div class="pt-12 pb-6 md:pb-10 md:pt-24">
-    <div class="container px-3 mx-auto flex flex-wrap items-center">
+    <div class="container md:px-32 px-3 mx-auto flex flex-wrap items-center">
       <!--Left Col-->
       <div
         class="pt-4 flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"

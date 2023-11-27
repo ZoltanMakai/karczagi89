@@ -3,7 +3,7 @@
     <div
       class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-1"
     >
-      <div class="pl-4 flex items-center">
+      <div class="pl-4 md:pl-32 flex items-center">
         <a
           class="toggleColour text-white no-underline hover:no-underline font-bold text-xl lg:text-2xl"
           href="#"
