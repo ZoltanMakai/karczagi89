@@ -97,6 +97,14 @@
               >Gépeink</a
             >
           </li>
+          <li class="mr-3">
+            <a
+              class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold toggleColour text-white no-underline hover:underline py-2 px-4"
+              href=">#kapcsolat"
+              @click.prevent="smoothScroll('kapcsolat')"
+              >Kapcsolat</a
+            >
+          </li>
         </ul>
       </div>
     </div>

@@ -19,7 +19,6 @@ export default defineNuxtConfig({
     },
   },
   delayHydration: {
-    debug: process.env.NODE_ENV === "development",
     mode: "init",
   },
 });
