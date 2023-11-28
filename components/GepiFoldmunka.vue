@@ -38,6 +38,7 @@
       >
         <div class="flex flex-col items-center md:pr-10">
           <NuxtImg
+            loading="lazy"
             src="/img/tereprendezes_icon.webp"
             format="webp"
             class="md:w-40 md:h-40 w-20 h-20 transform transition duration-300 hover:rotate-3 hover:scale-105"
@@ -57,6 +58,7 @@
 
         <div class="flex flex-col items-center md:pr-10">
           <NuxtImg
+            loading="lazy"
             src="/img/epuletbontas_icon.webp"
             format="webp"
             class="md:w-40 md:h-40 w-20 h-20 transform transition duration-300 hover:rotate-3 hover:scale-105"
@@ -74,6 +76,7 @@
         </div>
         <div class="flex flex-col items-center">
           <NuxtImg
+            loading="lazy"
             src="/img/fold.webp"
             format="webp"
             class="md:w-40 md:h-40 w-20 h-20 transform transition duration-300 hover:rotate-3 hover:scale-105"
@@ -92,6 +95,7 @@
         </div>
         <div class="flex flex-col items-center md:pt-8 md:pr-10">
           <NuxtImg
+            loading="lazy"
             src="/img/alapasas_icon.webp"
             format="webp"
             class="md:w-40 md:h-40 w-20 h-20 transform transition duration-300 hover:rotate-3 hover:scale-105"
@@ -110,6 +114,7 @@
         </div>
         <div class="flex flex-col items-center md:pt-8 md:pr-10">
           <NuxtImg
+            loading="lazy"
             src="/img/concretesaw.webp"
             format="webp"
             class="md:w-40 md:h-40 w-20 h-20 transform transition duration-300 hover:rotate-3 hover:scale-105"
@@ -128,6 +133,7 @@
         </div>
         <div class="flex flex-col items-center md:pt-8">
           <NuxtImg
+            loading="lazy"
             src="/img/arokasas_icon.webp"
             format="webp"
             class="md:w-40 md:h-40 w-20 h-20 transform transition duration-300 hover:rotate-3 hover:scale-105"
@@ -146,6 +152,7 @@
         </div>
         <div class="flex flex-col items-center md:col-start-2 md:pr-10">
           <NuxtImg
+            loading="lazy"
             src="/img/pince.webp"
             format="webp"
             class="md:w-40 md:h-40 w-20 h-20 transform transition duration-300 hover:rotate-3 hover:scale-105"

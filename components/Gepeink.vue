@@ -39,6 +39,7 @@
       >
         <div class="w-full h-full md:col-span-5 relative overflow-hidden">
           <NuxtImg
+            loading="lazy"
             src="/img/jcb3cx.webp"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
@@ -46,6 +47,7 @@
         </div>
         <div class="w-full h-full md:col-span-5 relative overflow-hidden">
           <NuxtImg
+            loading="lazy"
             src="/img/jcb1cx.webp"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
             alt="JCB Image"
@@ -53,6 +55,7 @@
         </div>
         <div class="w-full h-full md:col-span-3 relative overflow-hidden">
           <NuxtImg
+            loading="lazy"
             src="/img/jcb8018.webp"
             format="webp"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
@@ -61,6 +64,7 @@
         </div>
         <div class="w-full h-full md:col-span-4 relative overflow-hidden">
           <NuxtImg
+            loading="lazy"
             src="/img/padkahenger.webp"
             format="webp"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
@@ -69,6 +73,7 @@
         </div>
         <div class="w-full h-full md:col-span-3 relative overflow-hidden">
           <NuxtImg
+            loading="lazy"
             src="/img/betonvago.webp"
             format="webp"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
@@ -77,6 +82,7 @@
         </div>
         <div class="w-full h-full md:col-span-5 relative overflow-hidden">
           <NuxtImg
+            loading="lazy"
             src="/img/lapvibrator.webp"
             format="webp"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
@@ -85,6 +91,7 @@
         </div>
         <div class="w-full h-full md:col-span-5 relative overflow-hidden">
           <NuxtImg
+            loading="lazy"
             src="/img/roxon.webp"
             format="webp"
             class="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"

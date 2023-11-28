@@ -33,6 +33,7 @@
           >
             <div class="absolute w-full h-full" @click="rotateImage(index)">
               <NuxtImg
+                loading="lazy"
                 :src="card.image"
                 class="w-full h-full object-cover rounded-xl shadow-2xl shadow-gray-900"
                 alt="Icon"

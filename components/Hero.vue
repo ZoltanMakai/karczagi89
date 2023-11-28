@@ -39,6 +39,7 @@
         ref="container"
       >
         <NuxtImg
+          loading="lazy"
           :class="
             animated
               ? 'animate-float-in  md:w-4/5 z-50'
