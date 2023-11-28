@@ -11,7 +11,6 @@
         <a
           class="toggleColour no-underline hover:no-underline font-bold text-xl lg:text-2xl"
           href="#"
-          @click="toggleHidden"
         >
           <svg
             fill="#000000"
