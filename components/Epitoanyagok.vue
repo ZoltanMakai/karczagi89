@@ -1,11 +1,11 @@
 <template>
   <section
-    class="bg-white border-b-4 pt-8 pb-16 md:pb-32"
+    class="bg-white border-b-4 pt-10 pb-16 md:pb-32"
     id="epitoanyag-kereskedelem"
   >
     <div class="container px-3 mx-auto flex flex-wrap items-center">
       <h2
-        class="w-full my-2 pt-8 md:pt-16 text-2xl md:text-5xl font-bold leading-tight text-center text-gray-800"
+        class="w-full my-2 md:pt-10 text-2xl md:text-5xl font-bold leading-tight text-center text-gray-800"
       >
         Építőanyag kereskedelem
       </h2>

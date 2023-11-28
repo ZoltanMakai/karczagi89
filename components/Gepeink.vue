@@ -22,7 +22,7 @@
       >
     </a>
   </div>
-  <section class="bg-white border-b-4 pt-6 pb-8 md:pb-24" id="gepeink">
+  <section class="bg-white border-b-4 pt-10 pb-8 md:pb-24" id="gepeink">
     <div class="container px-3 mx-auto flex flex-wrap items-center">
       <h2
         class="w-full my-2 md:pt-10 text-2xl md:text-5xl font-bold leading-tight text-center text-gray-800"

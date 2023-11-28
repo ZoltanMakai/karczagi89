@@ -19,7 +19,7 @@
     </div>
   </div>
   <section
-    class="bg-gray-200 border-b-4 pt-8 pb-8 md:pb-24"
+    class="bg-gray-200 border-b-4 pt-10 pb-8 md:pb-24"
     id="gepi-foldmunkak"
   >
     <div class="container px-3 mx-auto flex flex-wrap items-center">

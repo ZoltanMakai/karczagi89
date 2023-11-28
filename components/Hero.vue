@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-12 pb-6 md:pb-10 md:pt-24">
+  <div class="pt-12 pb-6 md:pb-8 md:pt-24">
     <div class="container md:px-32 px-3 mx-auto flex flex-wrap items-center">
       <!--Left Col-->
       <div
