@@ -14,7 +14,7 @@
           gépi földmunkák és egyéb kültéri munkák kivitelezésében.
         </p>
         <a
-          href="tel:+36203962613"
+          href="tel:+36309350138"
           class="z-10 items-center mx-auto lg:mx-0 hover:underline bg-white text-black rounded-full my-3 py-2 px-4 md:my-6 md:py-4 md:px-8 shadow-lg transition hover:scale-105 duration-300 ease-in-out"
         >
           <svg
@@ -30,7 +30,7 @@
               d="M20.91,11.11a6,6,0,0,1,1.77,4.31,1,1,0,0,0,1,1h0a1,1,0,0,0,1-1,8,8,0,0,0-8-8.1,1,1,0,1,0,0,2A6,6,0,0,1,20.91,11.11Z"
             ></path>
           </svg>
-          <span class="whitespace-nowrap font-bold">+36 20 396 2613</span>
+          <span class="whitespace-nowrap font-bold">+36 30 935 0138</span>
         </a>
       </div>
       <!--Right Col-->
