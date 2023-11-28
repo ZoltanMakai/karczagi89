@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-200 flex justify-center items-center">
     <a
-      href="tel:+36203962613"
+      href="tel:+36309350138"
       class="z-10 items-center mx-auto hover:underline bg-black text-yellow-500 rounded-full my-3 py-2 px-4 md:my-6 md:py-4 md:px-8 shadow-lg transition hover:scale-105 duration-300 ease-in-out"
     >
       <svg
@@ -34,7 +34,9 @@
           class="h-1 mx-auto bg-gradient w-24 md:w-64 opacity-25 my-0 py-0 rounded-t"
         ></div>
       </div>
-      <div class="grid grid-cols-2 md:grid-cols-10 mx-auto pt-6 gap-3 md:gap-6">
+      <div
+        class="grid grid-cols-2 md:grid-cols-10 mx-auto pt-6 gap-3 md:gap-6 md:w-3/4 md:h-3/4"
+      >
         <div class="w-full h-full md:col-span-5 relative overflow-hidden">
           <NuxtImg
             src="/img/jcb3cx.webp"

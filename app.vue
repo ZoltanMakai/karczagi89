@@ -8,7 +8,6 @@
     <GepiFoldmunka />
     <Gepeink />
 
-    <!-- Change the colour #f8fafc to match the previous section colour -->
     <svg
       class="wave-top"
       viewBox="0 0 1439 147"

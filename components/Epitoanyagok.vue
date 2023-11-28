@@ -41,6 +41,7 @@
             <div
               v-if="card.details && card.details.length > 0"
               class="absolute my-rotate-y-180 backface-hidden w-full h-full shadow-xl rounded-xl bg-gray-100 overflow-hidden"
+              @click="rotateImage(index)"
             >
               <div
                 class="text-center flex flex-col items-center justify-center text-black h-full px-2"

@@ -3,7 +3,7 @@
     <div class="relative">
       <div class="h-16 bg-gray-200"></div>
       <div
-        class="absolute md:-top-[245px] -top-[103px] inset-y-0 left-0 right-0 flex items-center justify-center"
+        class="absolute -top-[103px] inset-y-0 left-0 right-0 flex items-center justify-center"
       >
         <svg
           class="h-max fill-current text-gray-200"

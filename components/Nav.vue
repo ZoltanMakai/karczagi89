@@ -1,12 +1,17 @@
 <template>
-  <nav id="header" :class="header" class="fixed w-full z-30 top-0 text-white">
+  <nav
+    id="header"
+    :class="header"
+    class="fixed w-full bg-white z-30 top-0 text-black"
+  >
     <div
       class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-1"
     >
       <div class="pl-4 md:pl-32 flex items-center">
         <a
-          class="toggleColour text-white no-underline hover:no-underline font-bold text-xl lg:text-2xl"
+          class="toggleColour no-underline hover:no-underline font-bold text-xl lg:text-2xl"
           href="#"
+          @click="toggleHidden"
         >
           <svg
             fill="#000000"
@@ -47,6 +52,7 @@
       </div>
       <div class="block lg:hidden pr-4">
         <button
+          @click="toggleHidden"
           id="nav-toggle"
           class="flex items-center p-1 text-black hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
         >
@@ -61,47 +67,52 @@
         </button>
       </div>
       <div
-        class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+        class="w-full flex-grow lg:flex lg:items-center lg:w-auto mt-2 lg:mt-0 bg-white lg:bg-transparent text-black lg:p-0 z-20"
+        :class="{ hidden: isHidden }"
         id="nav-content"
-        :class="navcontent"
       >
         <ul class="lg:flex justify-end flex-1 items-center gap-4">
           <li class="mr-3">
             <a
-              class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold toggleColour text-white no-underline hover:underline py-2 px-4"
+              class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold no-underline hover:underline py-2 px-4"
               href="#gepi-foldmunkak"
               @click.prevent="smoothScroll('gepi-foldmunkak')"
+              @click="toggleHidden"
               >Gépi földmunkák</a
             >
           </li>
           <li class="mr-3">
             <a
-              class="inline-block hover:scale-105 tracking-wide transition duration-100 ease-in-out font-bold toggleColour text-white no-underline hover:underline py-2 px-4"
+              class="inline-block hover:scale-105 tracking-wide transition duration-100 ease-in-out font-bold toggleColour no-underline hover:underline py-2 px-4"
               href="#"
+              @click="toggleHidden"
               >Kültéri munkák kivitelezése</a
             >
           </li>
           <li class="mr-3">
             <a
-              class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold toggleColour text-white no-underline hover:underline py-2 px-4"
+              class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold toggleColour no-underline hover:underline py-2 px-4"
               href="#epitoanyag-kereskedelem"
               @click.prevent="smoothScroll('epitoanyag-kereskedelem')"
+              @click="toggleHidden"
               >Építőanyag kereskedelem</a
             >
           </li>
           <li class="mr-3">
             <a
-              class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold toggleColour text-white no-underline hover:underline py-2 px-4"
+              class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold toggleColour no-underline hover:underline py-2 px-4"
               href=">#gepeink"
               @click.prevent="smoothScroll('gepeink')"
+              @click="toggleHidden"
               >Gépeink</a
             >
           </li>
           <li class="mr-3">
             <a
-              class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold toggleColour text-white no-underline hover:underline py-2 px-4"
+              class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold toggleColour no-underline hover:underline py-2 px-4"
               href=">#kapcsolat"
               @click.prevent="smoothScroll('kapcsolat')"
+              @click="toggleHidden"
               >Kapcsolat</a
             >
           </li>
@@ -115,44 +126,11 @@
 <script setup>
 import { onMounted, ref } from "vue";
 
-const scrollpos = ref(0);
-const header = ref(null);
-const navcontent = ref(null);
-const toToggle = ref([]);
+const isHidden = ref(true);
 
-onMounted(() => {
-  scrollpos.value = window.scrollY;
-  header.value = document.getElementById("header");
-  navcontent.value = document.getElementById("nav-content");
-  toToggle.value = document.querySelectorAll(".toggleColour");
-
-  document.addEventListener("scroll", () => {
-    scrollpos.value = window.scrollY;
-
-    if (scrollpos.value > 10) {
-      header.value.classList.add("bg-white");
-
-      for (let i = 0; i < toToggle.value.length; i++) {
-        toToggle.value[i].classList.add("text-gray-800");
-        toToggle.value[i].classList.remove("text-white");
-      }
-      header.value.classList.add("shadow");
-      navcontent.value.classList.remove("bg-gray-100");
-      navcontent.value.classList.add("bg-white");
-    } else {
-      header.value.classList.remove("bg-white");
-
-      for (let i = 0; i < toToggle.value.length; i++) {
-        toToggle.value[i].classList.add("text-white");
-        toToggle.value[i].classList.remove("text-gray-800");
-      }
-
-      header.value.classList.remove("shadow");
-      navcontent.value.classList.remove("bg-white");
-      navcontent.value.classList.add("bg-gray-100");
-    }
-  });
-});
+const toggleHidden = () => {
+  isHidden.value = !isHidden.value;
+};
 
 const smoothScroll = (targetId) => {
   const target = document.querySelector(`#${targetId}`);
