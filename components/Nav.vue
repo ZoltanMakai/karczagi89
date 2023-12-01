@@ -70,7 +70,7 @@
         :class="{ hidden: isHidden }"
         id="nav-content"
       >
-        <ul class="lg:flex justify-end flex-1 items-center gap-4">
+        <ul class="lg:flex justify-end flex-1 items-center">
           <li class="mr-3">
             <a
               class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold no-underline hover:underline py-2 px-4"
