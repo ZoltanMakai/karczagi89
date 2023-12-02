@@ -17,7 +17,7 @@
         <div class="flex flex-col items-center md:pr-10">
           <NuxtImg
             loading="lazy"
-            src="/img/concrete-mixer.png"
+            src="/img/concrete-mixer.webp"
             format="webp"
             class="md:w-40 md:h-40 w-20 h-20 transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
@@ -37,7 +37,7 @@
         <div class="flex flex-col items-center md:pr-10">
           <NuxtImg
             loading="lazy"
-            src="/img/paver.png"
+            src="/img/paver.webp"
             format="webp"
             class="md:w-40 md:h-40 w-20 h-20 transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
@@ -56,7 +56,7 @@
         <div class="flex flex-col items-center">
           <NuxtImg
             loading="lazy"
-            src="/img/road.png"
+            src="/img/road.webp"
             format="webp"
             class="md:w-40 md:h-40 w-20 h-20 transform transition duration-300 hover:rotate-3 hover:scale-105"
             alt="Icon"
