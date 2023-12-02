@@ -1,9 +1,5 @@
 <template>
-  <nav
-    id="header"
-    :class="header"
-    class="fixed w-full bg-white z-30 top-0 text-black"
-  >
+  <nav class="fixed w-full bg-white z-30 top-0 text-black">
     <div
       class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-1"
     >
@@ -74,7 +70,7 @@
           <li class="mr-3">
             <a
               class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold no-underline hover:underline py-2 px-4"
-              href="#gepi-foldmunkak"
+              href=">#gepi-foldmunkak"
               @click.prevent="smoothScroll('gepi-foldmunkak')"
               @click="toggleHidden"
               >Gépi földmunkák</a
@@ -83,7 +79,8 @@
           <li class="mr-3">
             <a
               class="inline-block hover:scale-105 tracking-wide transition duration-100 ease-in-out font-bold toggleColour no-underline hover:underline py-2 px-4"
-              href="#"
+              href=">#kulteri-munkak"
+              @click.prevent="smoothScroll('kulteri-munkak')"
               @click="toggleHidden"
               >Kültéri munkák kivitelezése</a
             >
@@ -91,7 +88,7 @@
           <li class="mr-3">
             <a
               class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold toggleColour no-underline hover:underline py-2 px-4"
-              href="#epitoanyag-kereskedelem"
+              href=">#epitoanyag-kereskedelem"
               @click.prevent="smoothScroll('epitoanyag-kereskedelem')"
               @click="toggleHidden"
               >Építőanyag kereskedelem</a
@@ -123,8 +120,6 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from "vue";
-
 const isHidden = ref(true);
 
 const toggleHidden = () => {

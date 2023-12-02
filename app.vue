@@ -4,6 +4,7 @@
   >
     <Nav />
     <Hero />
+    <Kulterimunka />
     <Epitoanyagok />
     <GepiFoldmunka />
     <Gepeink />
