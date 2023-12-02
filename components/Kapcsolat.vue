@@ -38,7 +38,9 @@
     <div class="container flex flex-col md:flex-row mx-auto">
       <div class="md:w-1/2 w-full mx-auto">
         <!-- Left Section -->
-        <div class="text-center text-2xl md:text-5xl font-bold leading-tight">
+        <div
+          class="text-center pl-4 md:pl-32 md:text-left text-2xl md:text-5xl font-bold leading-tight"
+        >
           Kapcsolat
         </div>
         <ul class="pt-5 md:pt-10 pl-4 pr-6 md:pl-32 md:text-lg">
