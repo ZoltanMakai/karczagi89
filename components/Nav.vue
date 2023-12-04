@@ -1,7 +1,7 @@
 <template>
   <nav class="fixed w-full bg-white z-30 top-0 text-black">
     <div
-      class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-1"
+      class="w-full container mx-auto flex flex-wrap items-center justify-between py-1"
     >
       <div class="pl-4 md:pl-32 flex items-center">
         <a
@@ -62,14 +62,14 @@
         </button>
       </div>
       <div
-        class="w-full flex-grow lg:flex lg:items-center lg:w-auto mt-2 lg:mt-0 bg-white lg:bg-transparent text-black lg:p-0 z-20"
+        class="w-full flex-grow lg:flex lg:items-center lg:w-auto mt-2 lg:mt-0 bg-white lg:bg-transparent text-black z-20"
         :class="{ hidden: isHidden }"
         id="nav-content"
       >
         <ul class="lg:flex justify-end flex-1 items-center">
           <li class="mr-3">
             <a
-              class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold no-underline hover:underline py-2 px-4"
+              class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold no-underline hover:underline py-2 px-4 lg:py-0"
               href=">#gepi-foldmunkak"
               @click.prevent="smoothScroll('gepi-foldmunkak')"
               @click="toggleHidden"
@@ -78,7 +78,7 @@
           </li>
           <li class="mr-3">
             <a
-              class="inline-block hover:scale-105 tracking-wide transition duration-100 ease-in-out font-bold toggleColour no-underline hover:underline py-2 px-4"
+              class="inline-block hover:scale-105 tracking-wide transition duration-100 ease-in-out font-bold toggleColour no-underline hover:underline lg:py-0 py-2 px-4"
               href=">#kulteri-munkak"
               @click.prevent="smoothScroll('kulteri-munkak')"
               @click="toggleHidden"
@@ -87,7 +87,7 @@
           </li>
           <li class="mr-3">
             <a
-              class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold toggleColour no-underline hover:underline py-2 px-4"
+              class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold toggleColour no-underline hover:underline lg:py-0 py-2 px-4"
               href=">#epitoanyag-kereskedelem"
               @click.prevent="smoothScroll('epitoanyag-kereskedelem')"
               @click="toggleHidden"
@@ -96,7 +96,7 @@
           </li>
           <li class="mr-3">
             <a
-              class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold toggleColour no-underline hover:underline py-2 px-4"
+              class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold toggleColour no-underline hover:underline lg:py-0 py-2 px-4"
               href=">#gepeink"
               @click.prevent="smoothScroll('gepeink')"
               @click="toggleHidden"
@@ -105,7 +105,7 @@
           </li>
           <li class="mr-3">
             <a
-              class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold toggleColour no-underline hover:underline py-2 px-4"
+              class="inline-block hover:scale-105 transition tracking-wide duration-100 ease-in-out font-bold toggleColour no-underline hover:underline lg:py-0 py-2 px-4"
               href=">#kapcsolat"
               @click.prevent="smoothScroll('kapcsolat')"
               @click="toggleHidden"
