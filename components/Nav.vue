@@ -62,7 +62,7 @@
         </button>
       </div>
       <div
-        class="w-full flex-grow lg:flex lg:items-center lg:w-auto mt-2 lg:mt-0 bg-white lg:bg-transparent text-black z-20"
+        class="w-full flex-grow lg:flex lg:items-center lg:flex-1 mt-2 lg:mt-0 bg-white lg:bg-transparent text-black z-20"
         :class="{ hidden: isHidden }"
         id="nav-content"
       >
