@@ -6,7 +6,7 @@
         class="pt-4 flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left"
       >
         <h1
-          class="my-4 text-2xl md:text-5xl uppercase md:mr-64 md:pt-32 font-bold"
+          class="text-2xl md:text-5xl pt-16 uppercase mx-7 md:mx-0 md:mr-64 md:pt-32 font-bold"
         >
           Gépi földmunka és Építőanyag kereskedelem
         </h1>
@@ -19,7 +19,7 @@
         </p>
         <a
           href="tel:+36309350138"
-          class="z-10 items-center mx-auto lg:mx-0 hover:underline bg-white text-black rounded-full my-3 py-2 px-4 md:my-6 md:py-4 md:px-8 shadow-lg transition hover:scale-105 duration-300 ease-in-out"
+          class="z-10 items-center mx-auto lg:mx-0 hover:underline bg-black text-yellow-500 rounded-xl my-6 py-2 px-4 md:my-6 md:py-4 md:px-8 shadow-lg transition hover:scale-105 duration-300 ease-in-out"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
