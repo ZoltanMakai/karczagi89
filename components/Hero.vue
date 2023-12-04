@@ -1,14 +1,18 @@
 <template>
   <div class="pt-12 pb-6 md:pb-8 md:pt-24">
-    <div class="container md:px-32 px-3 mx-auto flex flex-wrap items-center">
+    <div class="container md:pl-32 pl-3 mx-auto flex flex-wrap items-center">
       <!--Left Col-->
       <div
-        class="pt-4 flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
+        class="pt-4 flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left"
       >
-        <h1 class="my-4 text-2xl md:text-5xl font-bold leading-tight">
+        <h1
+          class="my-4 text-2xl md:text-5xl uppercase md:mr-64 md:pt-32 font-bold"
+        >
           Gépi földmunka és Építőanyag kereskedelem
         </h1>
-        <p class="leading-normal text-base md:text-2xl mb-2 md:mb-8 mt-8">
+        <p
+          class="leading-normal text-base md:text-lg md:mr-64 mb-2 md:mb-4 mt-8"
+        >
           Cégünk közel 30 éve családi vállakozásként és lassan 3 generáción át
           áll kedves ügyfeleink rendelkezésére Bogács és környező településein,
           gépi földmunkák és egyéb kültéri munkák kivitelezésében.
@@ -35,15 +39,15 @@
       </div>
       <!--Right Col-->
       <div
-        class="w-full hidden md:block md:w-3/5 py-2 text-center relative"
+        class="w-full hidden md:block md:w-2/5 py-2 text-center relative"
         ref="container"
       >
         <NuxtImg
           loading="lazy"
           :class="
             animated
-              ? 'animate-float-in  md:w-4/5 z-50'
-              : 'md:h-4/5 md:w-4/5 z-50'
+              ? 'animate-float-in  md:w-full z-50'
+              : 'md:h-4/5 md:w-full z-50'
           "
           src="/img/cat.webp"
           alt="JCB"
