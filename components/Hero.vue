@@ -10,13 +10,13 @@
         >
           Gépi földmunka és Építőanyag kereskedelem
         </h1>
-        <p
-          class="leading-normal text-base md:text-lg md:mr-64 mb-2 md:mb-4 mt-8"
+        <h1
+          class="leading-normal text-base md:text-lg md:mr-32 xl:mr-64 mb-2 md:mb-4 mt-8"
         >
           Cégünk közel 30 éve családi vállakozásként és lassan 3 generáción át
           áll kedves ügyfeleink rendelkezésére Bogács és környező településein,
           gépi földmunkák és egyéb kültéri munkák kivitelezésében.
-        </p>
+        </h1>
         <a
           href="tel:+36309350138"
           class="z-10 items-center mx-auto lg:mx-0 hover:underline bg-black text-yellow-500 rounded-xl my-6 py-2 px-4 md:my-6 md:py-4 md:px-8 shadow-lg transition hover:scale-105 duration-300 ease-in-out"

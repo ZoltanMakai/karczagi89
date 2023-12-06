@@ -10,15 +10,35 @@
     <Gepeink />
     <Kapcsolat />
 
-    <!--Footer-->
     <Footer />
   </div>
 </template>
 <script setup>
-const pageTitle = "Karczagi-89 kft";
-
-onMounted(() => {
-  document.title = pageTitle;
+useHead({
+  title: "FÖLDMUNKA ÉS ÉPÍTŐANYAG - Karczagi-89",
+  htmlAttrs: {
+    lang: "hu",
+  },
+  meta: [
+    {
+      name: "description",
+      content:
+        "Családi vállalkozás 30 éves tapasztalattal gépi földmunkákban és építőanyag-kereskedelemben. Szolgáltatásaink: tereprendezés, épületbontás, betonalapok, térkövezés, és több.",
+    },
+    {
+      property: "og:title",
+      content: "FÖLDMUNKA ÉS ÉPÍTŐANYAG - Karczagi-89",
+    },
+    {
+      property: "og:description",
+      content:
+        "Családi vállalkozás 30 éves tapasztalattal gépi földmunkákban és építőanyag-kereskedelemben. Szolgáltatásaink: tereprendezés, épületbontás, betonalapok, térkövezés, és több.",
+    },
+    {
+      property: "og:type",
+      content: "website",
+    },
+  ],
 });
 
 const animated = ref(false);

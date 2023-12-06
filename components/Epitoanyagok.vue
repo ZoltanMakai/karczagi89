@@ -20,11 +20,11 @@
           :key="index"
           class="w-full bg-transparent cursor-pointer group perspective"
         >
-          <p
+          <h2
             class="text-gray-800 text-lg md:text-3xl text-center font-semibold py-3 md:py-4"
           >
             {{ card.title }}
-          </p>
+          </h2>
           <div
             :class="{
               'my-rotate-y-180': isRotated[index],

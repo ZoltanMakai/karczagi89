@@ -23,9 +23,9 @@
             alt="Icon"
             style="transform-origin: center"
           />
-          <p class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
+          <h3 class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
             BETONALAPOK KÉSZÍTÉSE
-          </p>
+          </h3>
           <p
             class="md:mt-4 mt-2 md:w-80 w-72 tracking-tighter md:text-lg text-center"
           >
@@ -43,9 +43,9 @@
             alt="Icon"
             style="transform-origin: center"
           />
-          <p class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
+          <h3 class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
             TÉRKÖVEZÉS
-          </p>
+          </h3>
           <p
             class="md:mt-4 mt-2 md:w-80 w-72 tracking-tighter md:text-lg text-center"
           >
@@ -62,9 +62,9 @@
             alt="Icon"
             style="transform-origin: center"
           />
-          <p class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
+          <h3 class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
             ZÚZALÉKOLÁS
-          </p>
+          </h3>
           <p
             class="md:mt-4 mt-2 md:w-80 w-72 tracking-tighter md:text-lg text-center"
           >

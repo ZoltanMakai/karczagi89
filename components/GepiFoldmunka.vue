@@ -45,9 +45,9 @@
             alt="Icon"
             style="transform-origin: center"
           />
-          <p class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
+          <h3 class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
             TEREPRENDEZÉS
-          </p>
+          </h3>
           <p
             class="md:mt-4 mt-2 md:w-80 w-72 tracking-tighter md:text-lg text-center"
           >
@@ -65,9 +65,9 @@
             alt="Icon"
             style="transform-origin: center"
           />
-          <p class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
+          <h3 class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
             ÉPÜLETBONTÁS
-          </p>
+          </h3>
           <p
             class="md:mt-4 mt-2 md:w-80 w-72 tracking-tighter md:text-lg text-center"
           >
@@ -83,9 +83,9 @@
             alt="Icon"
             style="transform-origin: center"
           />
-          <p class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
+          <h3 class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
             FÖLDTÜKÖR KIEMELÉS
-          </p>
+          </h3>
           <p
             class="md:mt-4 mt-2 md:w-80 w-72 tracking-tighter md:text-lg text-center"
           >
@@ -102,9 +102,9 @@
             alt="Icon"
             style="transform-origin: center"
           />
-          <p class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
+          <h3 class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
             ALAPÁSÁS
-          </p>
+          </h3>
           <p
             class="md:mt-4 mt-2 md:w-80 w-72 tracking-tighter md:text-lg text-center"
           >
@@ -121,9 +121,9 @@
             alt="Icon"
             style="transform-origin: center"
           />
-          <p class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
+          <h3 class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
             VÁGÁS ÉS VÉSÉS
-          </p>
+          </h3>
           <p
             class="md:mt-4 mt-2 md:w-80 w-72 tracking-tighter md:text-lg text-center"
           >
@@ -140,9 +140,9 @@
             alt="Icon"
             style="transform-origin: center"
           />
-          <p class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
+          <h3 class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
             ÁROKÁSÁS
-          </p>
+          </h3>
           <p
             class="md:mt-4 mt-2 md:w-80 w-72 tracking-tighter md:text-lg text-center"
           >
@@ -159,10 +159,10 @@
             alt="Icon"
             style="transform-origin: center"
           />
-          <p class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
+          <h3 class="md:mt-4 mt-2 md:text-2xl font-semibold text-center">
             MEDENCE-PINCETÖMB <br />
             KIEMELÉS
-          </p>
+          </h3>
           <p
             class="md:mt-4 mt-2 md:w-80 w-72 tracking-tighter md:text-lg text-center"
           >
