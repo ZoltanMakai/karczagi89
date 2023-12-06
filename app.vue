@@ -23,7 +23,7 @@ useHead({
     {
       name: "description",
       content:
-        "Családi vállalkozás 30 éves tapasztalattal gépi földmunkákban és építőanyag-kereskedelemben. Szolgáltatásaink: tereprendezés, épületbontás, betonalapok, térkövezés, és több.",
+        "Gépi földmunkákban és építőanyag-kereskedelem. Szolgáltatásaink:tereprendezés, épületbontás, betonalapok, térkövezés, és több.Bogács, Mezőkövesd, Noszvaj, Eger, Felsőtárkány, Bükk-vidék, Egri-Bükkalja, Borsod-Abaúj-Zemplén vármegye",
     },
     {
       property: "og:title",
@@ -32,7 +32,7 @@ useHead({
     {
       property: "og:description",
       content:
-        "Családi vállalkozás 30 éves tapasztalattal gépi földmunkákban és építőanyag-kereskedelemben. Szolgáltatásaink: tereprendezés, épületbontás, betonalapok, térkövezés, és több.",
+        "Gépi földmunkákban és építőanyag-kereskedelem. Szolgáltatásaink:tereprendezés, épületbontás, betonalapok, térkövezés, és több.Bogács, Mezőkövesd, Noszvaj, Eger, Felsőtárkány, Bükk-vidék, Egri-Bükkalja, Borsod-Abaúj-Zemplén vármegye",
     },
     {
       property: "og:type",
