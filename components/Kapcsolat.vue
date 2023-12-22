@@ -88,7 +88,7 @@
         </ul>
       </div>
       <!-- Right Section -->
-      <div id="map" class="md:w-1/2 w-full mx-auto"></div>
+      <div id="map" class="md:w-1/2 w-full mx-auto h-[400px]"></div>
     </div>
   </section>
 </template>
