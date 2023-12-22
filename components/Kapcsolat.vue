@@ -87,9 +87,29 @@
           </li>
         </ul>
       </div>
-      <div class="md:w-1/2 w-full bg-gray-300">
+      <div id="map" class="md:w-1/2 w-full">
         <!-- Right Section -->
       </div>
     </div>
   </section>
 </template>
+
+<script setup>
+import { Loader } from "@googlemaps/js-api-loader";
+
+onMounted(() => {
+  const loader = new Loader({
+    apiKey: "AIzaSyASui0TMJW3ZbEZe7SfAuHvNxigbRFbhGo",
+    version: "weekly",
+  });
+
+  loader.load().then(async () => {
+    const { Map } = await google.maps.importLibrary("maps");
+
+    map.value = new Map(document.getElementById("map"), {
+      zoom: 19,
+      mapTypeId: "satellite",
+    });
+  });
+});
+</script>
