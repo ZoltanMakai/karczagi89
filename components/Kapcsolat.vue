@@ -87,15 +87,15 @@
           </li>
         </ul>
       </div>
-      <div id="map" class="md:w-1/2 w-full">
-        <!-- Right Section -->
-      </div>
+      <!-- Right Section -->
+      <div id="map" class="md:w-1/2 w-full mx-auto"></div>
     </div>
   </section>
 </template>
 
 <script setup>
 import { Loader } from "@googlemaps/js-api-loader";
+const map = ref();
 
 onMounted(() => {
   const loader = new Loader({
@@ -107,7 +107,8 @@ onMounted(() => {
     const { Map } = await google.maps.importLibrary("maps");
 
     map.value = new Map(document.getElementById("map"), {
-      zoom: 19,
+      zoom: 16,
+      center: { lat: 47.887137, lng: 20.538508 },
       mapTypeId: "satellite",
     });
   });

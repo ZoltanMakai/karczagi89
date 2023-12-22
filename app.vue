@@ -9,8 +9,6 @@
     <GepiFoldmunka />
     <Gepeink />
     <Kapcsolat />
-
-    <Footer />
   </div>
 </template>
 <script setup>
