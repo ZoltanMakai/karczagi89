@@ -94,8 +94,10 @@
 </template>
 
 <script setup>
+import { ref, onMounted } from "vue";
 import { Loader } from "@googlemaps/js-api-loader";
-const map = ref();
+
+const map = ref(null);
 
 onMounted(() => {
   const loader = new Loader({
@@ -111,6 +113,15 @@ onMounted(() => {
       center: { lat: 47.887137, lng: 20.538508 },
       mapTypeId: "satellite",
     });
+
+    // Add a default Google Maps marker at the specified coordinates
+    if (map.value) {
+      const marker = new google.maps.Marker({
+        position: { lat: 47.887137, lng: 20.538508 },
+        map: map.value,
+        title: "Default Marker",
+      });
+    }
   });
 });
 </script>
