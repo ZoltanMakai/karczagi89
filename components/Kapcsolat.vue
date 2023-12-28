@@ -43,7 +43,7 @@
         >
           Kapcsolat
         </div>
-        <ul class="pt-5 md:pt-10 px-4 md:pl-32 md:text-lg">
+        <ul class="pt-5 md:pt-10 px-4 md:pl-32 md:text-lg pb-7">
           <li
             class="leading-normal text-base md:text-lg md:text-left text-center"
           >
