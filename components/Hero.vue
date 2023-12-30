@@ -11,7 +11,7 @@
           Gépi földmunka és Építőanyag kereskedelem
         </h1>
         <h1
-          class="leading-normal text-base md:text-lg md:mr-32 xl:mr-64 mb-2 md:mb-4 mt-8"
+          class="leading-normal text-base md:text-lg md:mr-32 xl:mr-64 mb-2 md:mb-4 mt-8 mx-auto pr-4"
         >
           Cégünk közel 30 éve családi vállakozásként és lassan 3 generáción át
           áll kedves ügyfeleink rendelkezésére Bogács és környező településein,
