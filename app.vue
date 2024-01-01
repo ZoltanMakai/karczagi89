@@ -22,7 +22,7 @@ useHead({
     {
       name: "description",
       content:
-        "Gépi földmunkákban és építőanyag-kereskedelem. Szolgáltatásaink:tereprendezés, épületbontás, betonalapok, térkövezés, és több.Bogács, Mezőkövesd, Noszvaj, Eger, Felsőtárkány, Bükk-vidék, Egri-Bükkalja, Borsod-Abaúj-Zemplén vármegye",
+        "Gépi földmunka és építőanyag-kereskedelem. Szolgáltatásaink:tereprendezés, épületbontás, betonalapok, térkövezés, és több.Bogács, Mezőkövesd, Noszvaj, Eger, Felsőtárkány, Bükk-vidék, Egri-Bükkalja, Borsod-Abaúj-Zemplén vármegye",
     },
     {
       property: "og:title",
@@ -31,7 +31,7 @@ useHead({
     {
       property: "og:description",
       content:
-        "Gépi földmunkákban és építőanyag-kereskedelem. Szolgáltatásaink:tereprendezés, épületbontás, betonalapok, térkövezés, és több.Bogács, Mezőkövesd, Noszvaj, Eger, Felsőtárkány, Bükk-vidék, Egri-Bükkalja, Borsod-Abaúj-Zemplén vármegye",
+        "Gépi földmunka és építőanyag-kereskedelem. Szolgáltatásaink:tereprendezés, épületbontás, betonalapok, térkövezés, és több.Bogács, Mezőkövesd, Noszvaj, Eger, Felsőtárkány, Bükk-vidék, Egri-Bükkalja, Borsod-Abaúj-Zemplén vármegye",
     },
     {
       property: "og:type",
