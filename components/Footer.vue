@@ -42,7 +42,7 @@
 	 M22.6,4h0.8l4.3,9.4l-0.7,0.2L22.6,4z"
               />
             </svg>
-            Karczagi-89
+            Karczagi-89 Kft.
           </a>
         </div>
       </div>
